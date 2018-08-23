@@ -1,0 +1,24 @@
+{
+  "name": "lambda-puppeteer",
+  "description": "Using cucumber with puppeteer in a lamdba function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LeeRhodes/lambda-puppeteer.git",
+  "author": "Lee Rhodes <leerhodes@protonmail.com>",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "cucumber": "4.2.1",
+    "puppeteer": "1.7.0",
+    "tar": "4.0.1",
+    "aws-sdk": "2.111.0",
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "eslint": "4.6.1",
+    "eslint-config-google": "0.9.1",
+    "serverless-hooks-plugin": "1.1.0"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  }
+}
+
